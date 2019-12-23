@@ -1,0 +1,160 @@
+.green,
+.accent {
+  color: #1ba253;
+}
+
+.dark-gray,
+.primary {
+  color: #353535;
+}
+
+.light-gray,
+.secondary {
+  color: #7f827d;
+}
+
+.white,
+.tertiary {
+  color: #e2e2e2;
+}
+
+.accent-dot-large {
+  font-size: 52px;
+}
+
+.reverse {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/*Landing*/
+
+.main-container {
+  width: 100%;
+  height: 1000px;
+  background-color: #353535;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.hero-image {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  border: solid 5px #7f827d;
+}
+
+.nav-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-container a {
+  font-size: 18px;
+  color: #e2e2e2;
+  text-decoration: none;
+  line-height: 36px;
+}
+
+.header-box {
+  width: 80%;
+  border-top: solid 5px #1ba253;
+  color: #e2e2e2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  margin-top: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-box .fa-shapes {
+  color: #1ba253;
+  padding: 10px;
+}
+
+.landing-card-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-card {
+  width: 300px;
+  height: 200px;
+  color: #e2e2e2;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+.accent-bar {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 2px #1ba253;
+  margin-top: 5px;
+}
+
+.landing-body {
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 15px;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.landing-card .fas {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #1ba253;
+}
+
+.nav-bar-below {
+  width: 120px;
+  height: 3px;
+  background-color: #e2e2e2;
+  position: absolute;
+}
+
+.accent-slider {
+  width: 10px;
+  height: 3px;
+  background-color: #1ba253;
+  position: absolute;
+}
+
+.slide-right {
+  animation: slide-right 0.75s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(110px);
+  }
+}
+
+.slide-left {
+  animation: slide-left 0.75s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(110px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
