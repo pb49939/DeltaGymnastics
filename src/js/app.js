@@ -16,7 +16,7 @@ const animate = require("./animations.js");
 const $ = require("jquery");
 const log = require("./log.js");
 
-$(document).ready(function() {
+$(document).ready(function () {
   log.logUser();
   animate.navSliderAnimation();
 
@@ -24,3 +24,5 @@ $(document).ready(function() {
     render.renderWebObjectByCode(webObjectCodes[i]);
   }
 });
+
+
